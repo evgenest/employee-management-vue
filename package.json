@@ -15,5 +15,8 @@
   },
   "overrides": {
     "vite": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.10"
   }
 }
