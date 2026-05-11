@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   css: ['bootstrap/dist/css/bootstrap.min.css'],
   runtimeConfig: {
     public: {
-      apiBaseUrl: 'https://localhost:7186/api'
+      apiBaseUrl: ''
     }
   },
   vite: {
