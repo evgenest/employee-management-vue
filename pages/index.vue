@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const api = useEmployeeApi()
 
-const { data, refresh } = await useAsyncData('employees', () => api.getAll())
+const { data, refresh } = await useAsyncData('employees', () => api.getAll(), { server: false })
 const employees = computed(() => data.value ?? [])
 
 async function deleteEmployee(id: number) {
