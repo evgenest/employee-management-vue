@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
   vite: {
     optimizeDeps: {
-      include: ['bootstrap/dist/js/bootstrap.bundle.min.js']
+      include: ['bootstrap']
     }
   }
 })
